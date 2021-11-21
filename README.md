@@ -63,3 +63,39 @@ They are
 
 •	Other coverages (sports equipment insurance, cover for disaster or unexpected events etc.)
 
+**The Learning Procedure:**
+
+In order to make a good prediction whether the customer will claim travel insurance or not, I am suggesting to use SVM Classifier (Support Vector Machine). 
+
+Support Vector Machine classifier is a supervised machine learning algorithm that can be used in our classification problem. The reason for choosing SVM algorithm is that, if the data points are not linearly separable, then it is a good practice to use SVM classifier to make the prediction. Support Vector Machine uses a technique called kernel trick that can transform the data and based on this transformation it will find an optimal boundary between the possible outputs. This algorithm performs extremely complex data transformations and then figures a way out to separate the data points based on the labels.
+
+The kernel trick offers more efficient and less expensive way to transform the data into higher dimensions.
+
+Reasons to use SVM classifier algorithm:
+
+•	It can be used for the data points that are highly overlapped between the classes.
+
+•	SVM algorithm can avoid overfitting.
+
+•	The influence of outliers in SVM algorithm is less when compared with other machine learning algorithms.
+
+•	The prediction time of SVM algorithm is faster along with better accuracy.
+
+**Performance Evaluation:**
+
+Before model deployment, the performance of the model should be analyzed. Since, this type of problem falls under classification type, there are three most important performance evaluation metrics that needs to be considered.
+
+They are Classification Accuracy, Accuracy by class and Confusion Matrix.
+
+**Classification Accuracy:**
+
+Classification accuracy is the number of correct predictions out of the total number of predictions made.
+
+**Accuracy by Class:**
+
+This can be found out by making a note of the True Positive and False Positive rates for each class obtained from Confusion Matrix. 
+
+**Confusion Matrix:**
+
+A Confusion matrix is a table that tells us how good the model has performed. Confusion matrices are useful because they give direct comparison of values like true positives, false positives, true negatives and false negatives. Confusion matrices are used to visualize some more important predictive analytics like recall, precision, specificity and accuracy.  
+
